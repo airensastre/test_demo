@@ -1,0 +1,44 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int a,b,formula;
+	int sum;
+	int difference;
+	int product;
+	double division;
+	
+	cout<<"Enter First Number: ";
+	cin>>a;
+	cout<<"Enter Second Number: ";
+	cin>>b;
+	
+	sum=a+b;
+	difference=a-b;
+	product=a*b;
+	division=a/b;
+	
+	
+	cout<<"Sum is:"<<sum<<endl;
+	cout<<"Difference is:"<<difference<<endl;
+	cout<<"Product is:"<<product<<endl;
+	cout<<"Quotient is:"<<division;
+	
+	
+	
+	
+	
+	return (0);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
